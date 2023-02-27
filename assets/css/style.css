@@ -1,0 +1,68 @@
+:root {
+  --primary-text-color: #e867ec;
+  --secondary-text-color: #fff;
+}
+
+body {
+  background-color: #33393f;
+}
+
+header {
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.subtext {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+main {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  padding: 15px;
+  justify-content: space-evenly;
+  column-gap: 15px;
+}
+
+.boxes {
+  border: 1px dashed var(--secondary-text-color);
+  padding: 10px;
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.box-title {
+  color: var(--primary-text-color);
+  border: 1px solid var(--secondary-text-color);
+  padding: 5px;
+  border-radius: 3px;
+  margin: 0 0 5px -45%;
+  position: absolute;
+  top: -15px;
+  z-index: 9;
+  background-color: #33393f;
+  width: 90%;
+  left: 50%;
+}
+.use {
+  color: var(--primary-text-color);
+  margin-top: 20px;
+}
+.innerbox {
+  color: var(--secondary-text-color);
+  margin-top: 10px;
+  padding: 10px;
+}
+footer {
+  color: var(--primary-text-color);
+  text-align: center;
+}
